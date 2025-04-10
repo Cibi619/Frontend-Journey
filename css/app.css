@@ -8,3 +8,13 @@ p {
 ul {
     list-style: square;
 }
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr:first-child {
+    color: red;
+}
+tr:nth-child(2n) {
+    background-color: rgb(255, 160, 131);
+}

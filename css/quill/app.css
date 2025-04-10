@@ -1,10 +1,117 @@
-h1, h2, h3 {
+/* 
+    ------------------ TYPOGRAPHY ---------------------
+    FONT SIZES
+    12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+
+    FONT WEIGHT
+    400 / 700
+
+    LINE HEIGHTS
+    1.2 / 1.5
+
+    LETTER SPACING
+    0 / -2px
+
+    FONT FAMILY
+    POPPINS
+
+    ------------------ COLORS ---------------------
+    PRIMARY 
+    BASE: #339af0 (Sky Blue)
+    TINT: #d0ebff (Arctic)
+    SHADE: #1c7ed6 (Deep Sea)
+
+    SECONDARY
+    BASE: #9775fa (Lavendar)
+    TINT: #E5DBFF (Moonlight Iris)
+    SHADE: #7048E8 (Velvet Night)
+
+    TERTIARY
+    BASE: #FF922B (Pumpkin)
+    TINT: #FFEBCC (Dawn)
+    SHADE: #F76707 (Lava)
+
+    GREY
+    BASE: #495057 (Slate)
+    TINT: #F1F3F5 (Pebble)
+    SHADE: #212529 (Graphite)
+*/
+
+/* ------------------------- GLOBAL STYLES ------------------------- */
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #495057;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    color: #212529;
+}
+h1 {
+    font-size: 62px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    text-align: left;
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 24px;
 }
 p {
-    font-weight: 400;
+    font-size: 20px;
 }
 a {
-    font-weight: 400;
     text-decoration: none;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+}
+#green-text {
+    color: green;
+}
+.orange-text {
+    color: orange;
+}
+/* ------------------------- BTN STYLES ------------------------- */
+
+.btn {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn-primary:link, .btn-primary:visited {
+    color: #339af0;
+}
+.btn-primary:hover, .btn-primary:active {
+    color: #1c7ed6;
+}
+.btn-secondary:link, .btn-secondary:visited {
+    color: #9775fa;
+}
+.btn-secondary:hover, .btn-secondary:active {
+    color: #7048E8;
+}
+/* ------------------------- SECTIONS ------------------------- */
+/* ------ HERO SECTION ------ */
+.hero-section {
+    text-align: center;
+}
+/* ------ CTA SECTION ------ */
+.cta-section {
+    text-align: center;
+}
+/* ------ FOOTER SECTION ------ */
+footer.footer {
+    text-align: center;
 }
